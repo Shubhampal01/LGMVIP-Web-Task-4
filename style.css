@@ -1,0 +1,81 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(black,white,black);
+}
+.calculator{
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+    border: 2px solid rgb(227, 219, 219);
+    border-radius: 10px;
+    background:linear-gradient(black,grey,black);
+
+}
+.display input{
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    text-align: right;
+    cursor: pointer;
+    background: #000;
+    border-radius: 10px ;
+    border: 2px solid grey;
+}
+.buttonContainer{
+    margin: 0 20px;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    background: rgb(88, 88, 88);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    outline: 1px solid rgb(61, 60, 60);
+    outline-offset: 5px;
+}
+button:active{
+    transform: scale(0.8);
+}
+.num{
+    font-weight: 600;
+    font-size: 25px;
+}
+.opr{
+    color: yellow;
+    background: rgb(58, 58, 58);
+
+}
+#eqBtn{
+    background-color: green;
+    font-weight: 900;
+}
+.header{
+    padding:10px ;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
